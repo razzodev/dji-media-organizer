@@ -19,7 +19,7 @@ const FOLDER_NAMES = {
 };
 
 // Supported file types
-const SUPPORTED_IMAGES = [".jpg", ".jpeg", ".png", ".dng"];
+const SUPPORTED_IMAGES = [".jpg", ".jpeg", ".png", ".dng", ".raw", ".nef", ".cr2", ".arw", ".orf", ".raf"];
 const SUPPORTED_VIDEOS = [".mp4", ".mov"];
 
 async function createFolderIfNeeded(folderPath) {
